@@ -20,6 +20,11 @@ public class ApplicationController {
         return "Software Development";
     }
 
+    @GetMapping("/addresses")
+    public String sayAddress(){
+        return "Inspiria Mall Pune";
+    }
+
 
 
 }
