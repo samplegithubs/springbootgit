@@ -25,6 +25,11 @@ public class ApplicationController {
         return "Inspiria Mall Pune";
     }
 
+    @GetMapping("/products")
+    public String productServices()
+    {
+        return "QR Code Slutions";
+    }
 
 
 }
